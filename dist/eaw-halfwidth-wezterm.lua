@@ -166,7 +166,7 @@ return {
   {first = 0x2776, last = 0x277f, width = 1},
   {first = 0x2b56, last = 0x2b59, width = 1},
   {first = 0x3248, last = 0x324f, width = 1},
-  {first = 0xe000, last = 0xf8ff, width = 1},
+  {first = 0xe000, last = 0xf8ff, width = 2},
   {first = 0xfffd, last = 0xfffd, width = 1},
   {first = 0x1f100, last = 0x1f10a, width = 1},
   {first = 0x1f110, last = 0x1f12d, width = 1},
@@ -174,5 +174,5 @@ return {
   {first = 0x1f170, last = 0x1f18d, width = 1},
   {first = 0x1f18f, last = 0x1f190, width = 1},
   {first = 0x1f19b, last = 0x1f1ac, width = 1},
-  {first = 0xf0000, last = 0x10fffd, width = 1},
+  {first = 0xf0000, last = 0x10fffd, width = 2},
 }
