@@ -1,4 +1,5 @@
 
+;;;###autoload
 (defun eaw-init ()
   (when (= emacs-major-version 22)
     (utf-translate-cjk-set-unicode-range code-wide))
@@ -13,7 +14,5 @@
       (optimize-char-table table)
       (set-char-table-parent table char-width-table)
       (setq char-width-table table))))
-
-(eaw-init)
 
 ;;; eaw.el ends here
